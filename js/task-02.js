@@ -6,3 +6,8 @@ const ingredients = [
     "Зелень",
     "Приправы",
 ];
+
+ingredients.forEach((ingr) => console.log(ingr));
+
+const listLi = document.createElement("li");
+console.log(listLi);
