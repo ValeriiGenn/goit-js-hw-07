@@ -6,8 +6,13 @@ const ingredients = [
     "Зелень",
     "Приправы",
 ];
+const listUl = document.getElementById("ingredients");
+const elemLi = ingredients.map((ingredient) => {
+    const item = document.createElement("li");
+    item.textContent = ingredient;
 
-ingredients.forEach((ingr) => console.log(ingr));
+    return item;
+});
 
-const listLi = document.createElement("li");
-console.log(listLi);
+listUl.append(...elemLi);
+console.log(listUl);
