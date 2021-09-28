@@ -1,0 +1,31 @@
+ul,
+li,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#gallery {
+    list-style: none;
+    display: flex;
+    margin-left: -20px;
+}
+
+.item {
+    flex-basis: calc(100% / 3-20px);
+    margin-left: 20px;
+}

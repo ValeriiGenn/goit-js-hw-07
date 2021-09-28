@@ -15,7 +15,7 @@ const images = [{
 const galleryEl = document.getElementById("gallery");
 const createGallery = (pictures) => {
     return pictures.map((picture) => {
-        return `<li>
+        return `<li class="item">
         <img class = "item__img" 
         src = "${picture.url}"
         alt = "${picture.alt}"
