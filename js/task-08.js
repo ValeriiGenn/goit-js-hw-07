@@ -30,10 +30,10 @@ function createBoxes() {
     divBoxesEl.append(...arr);
 }
 
-///function destroyBoxes() {
-//   divBoxesEl.innerHTML = "";
-//}
+function destroyBoxes() {
+    divBoxesEl.innerHTML = "";
+}
 
-//function getRandomInt(max) {
-//  return Math.floor(Math.random() * max);
-//}
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
